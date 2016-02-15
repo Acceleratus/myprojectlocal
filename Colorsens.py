@@ -20,8 +20,8 @@ a dark line, at which point it will turn away from it. """
 
 x = 1
 while True:
-MtLeft.run_forever(duty_cycle_sp=75)
-MtRight.run_forever(duty_cycle_sp=75)
+    MtLeft.run_forever(duty_cycle_sp=75)
+    MtRight.run_forever(duty_cycle_sp=75)
 
 if InColor < 30:
     MtRight.stop()
