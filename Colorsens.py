@@ -1,5 +1,5 @@
 from ev3dev.auto import OUTPUT_A, OUTPUT_B, OUTPUT_C, OUTPUT_D, INPUT_3, \
-    INPUT_4, Motor, ColorSensor, InfraredSensor, Button, enter
+    INPUT_4, Motor, ColorSensor, InfraredSensor, Button
 import time
 
 # IO Aliases
