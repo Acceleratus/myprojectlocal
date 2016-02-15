@@ -11,7 +11,7 @@ MtGrab = Motor(OUTPUT_D)
 
 InInfra = InfraredSensor(INPUT_3)
 InColor = ColorSensor(INPUT_4)
-InEnter = Button.enter()
+#InEnter = Button.enter()
 
 # Main Sequence
 """
@@ -27,7 +27,7 @@ if InColor < 30:
     MtRight.stop()
     time.sleep(0.1)
 
-if InEnter == True:
-    quit()
+#if InEnter == True:
+#    quit()
 
 x += 1
