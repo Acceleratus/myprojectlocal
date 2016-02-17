@@ -34,7 +34,5 @@ This tests various features of the robot. """
 x = True
 
 while x == True:
-    if InTouch == True:
-        Sound.tone(B,100)
-    else:
-        time.sleep(0.1)
+    Sound.tone(B,100)
+    x = False
