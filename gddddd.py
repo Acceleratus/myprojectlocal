@@ -1,4 +1,3 @@
-from ev3 import *
 import time
 
 # IO Aliases
