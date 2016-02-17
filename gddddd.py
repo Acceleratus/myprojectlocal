@@ -1,3 +1,4 @@
+from ev3dev.auto import *
 import time
 
 # IO Aliases
