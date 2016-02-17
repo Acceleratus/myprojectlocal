@@ -31,11 +31,10 @@ C2 = 523.25
 """
 This tests various features of the robot. """
 
+x = True
 
-while Button.on_enter(1) == False:
-    MtLeft.run_forever(duty_cycle_sp=100)
-    MtRight.run_forever(duty_cycle_sp=100)
-
-MtLeft.stop()
-MtRight.stop()
-Sound.tone(440,100).Wait()
+while x == True:
+    if InTouch == True:
+        Sound.tone(B,100)
+    else:
+        time.sleep(0.1)
