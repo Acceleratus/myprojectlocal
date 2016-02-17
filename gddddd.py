@@ -36,5 +36,6 @@ while Button.on_enter(1) == False:
     MtLeft.run_forever(duty_cycle_sp=100)
     MtRight.run_forever(duty_cycle_sp=100)
 
+MtLeft.stop()
+MtRight.stop()
 Sound.tone(440,100).Wait()
-
