@@ -35,15 +35,13 @@ MinArp = (C,100),(Ds,100),(G,100),(C2,100)
 This tests various features of the robot. """
 
 #Sound.tone(MajArp)
-col = InColor.value
-tch = InTouch.value
 
-while True:
-    InColor.value()
-    InTouch.value()
-    print InColor.value()
-    print InTouch.value()
-    time.sleep(1)
+#while True:
+#    InColor.value()
+#    InTouch.value()
+#    print InColor.value()
+#    print InTouch.value()
+#    time.sleep(1)
     
 while True:
     MtRight.run_forever(duty_cycle_sp=85)
