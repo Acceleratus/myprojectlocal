@@ -38,8 +38,8 @@ This tests various features of the robot. """
 #col = int(ColorSensor.units)
 #tch = int(TouchSensor.units)
 while True:
-    print int(ColorSensor.units)
-    print int(TouchSensor.units)
+    print InColor.units
+    print InTouch.units
     time.sleep(1)
 #while True:
 #    MtRight.run_forever(duty_cycle_sp=85)
@@ -54,4 +54,3 @@ while True:
 #MtRight.stop()
 #MtLeft.stop()
 #Sound.speak("That was fun. We should try that again!")
-
