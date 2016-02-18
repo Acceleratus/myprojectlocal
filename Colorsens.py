@@ -39,8 +39,8 @@ col = InColor.value
 tch = InTouch.value
 
 while True:
-    InColor.value(n=1)
-    InTouch.value(n=1)
+    InColor.value()
+    InTouch.value()
     print InColor.value()
     print InTouch.value()
     time.sleep(1)
