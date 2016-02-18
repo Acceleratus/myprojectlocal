@@ -39,8 +39,10 @@ col = InColor.value
 tch = InTouch.value
 
 while True:
-    print col
-    print tch
+    InColor.value(n=1)
+    InTouch.value(n=1)
+    print InColor.value()
+    print InTouch.value()
     time.sleep(1)
 #while True:
 #    MtRight.run_forever(duty_cycle_sp=85)
@@ -55,4 +57,3 @@ while True:
 #MtRight.stop()
 #MtLeft.stop()
 #Sound.speak("That was fun. We should try that again!")
-
