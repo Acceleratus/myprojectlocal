@@ -35,11 +35,12 @@ MinArp = (C,100),(Ds,100),(G,100),(C2,100)
 This tests various features of the robot. """
 
 #Sound.tone(MajArp)
-#col = int(ColorSensor.units)
-#tch = int(TouchSensor.units)
+col = InColor.value
+tch = InTouch.value
+
 while True:
-    print ColorSensor.value
-    print TouchSensor.value
+    print col
+    print tch
     time.sleep(1)
 #while True:
 #    MtRight.run_forever(duty_cycle_sp=85)
@@ -54,3 +55,4 @@ while True:
 #MtRight.stop()
 #MtLeft.stop()
 #Sound.speak("That was fun. We should try that again!")
+
