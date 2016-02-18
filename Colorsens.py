@@ -44,16 +44,19 @@ while True:
     print InColor.value()
     print InTouch.value()
     time.sleep(1)
-#while True:
-#    MtRight.run_forever(duty_cycle_sp=85)
-#    MtLeft.run_forever(duty_cycle_sp=100)
-#    if tch == 1:
-#        break
-#    else:
-#        if col < 30:
-#            MtLeft.stop()
-#            time.sleep(0.3)
+    
+while True:
+    MtRight.run_forever(duty_cycle_sp=85)
+    MtLeft.run_forever(duty_cycle_sp=100)
+    InColor.value()
+    InTouch.value()
+    if InTouch.value() == 1:
+        break
+    else:
+        if InColor.value() < 30:
+            MtLeft.stop()
+            time.sleep(0.3)
 
-#MtRight.stop()
-#MtLeft.stop()
-#Sound.speak("That was fun. We should try that again!")
+MtRight.stop()
+MtLeft.stop()
+Sound.speak("That was fun. We should try that again!")
