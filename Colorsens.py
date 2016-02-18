@@ -38,7 +38,7 @@ This tests various features of the robot. """
 #col = int(ColorSensor.units)
 #tch = int(TouchSensor.units)
 while True:
-    print Colorsensor.value
+    print ColorSensor.value
     print TouchSensor.value
     time.sleep(1)
 #while True:
